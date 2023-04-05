@@ -26,5 +26,8 @@ img{
     50%{margin-left:-200% }
     60%{margin-left:-200% }
 
-    100%{margin-left:-300% }
+    80%{margin-left:-300% }
+    90%{margin-left:-300% }
+
+    100%{margin-left:0% }
 }
