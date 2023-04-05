@@ -57,15 +57,16 @@
     cursor: pointer;
     border: none;
 }
+
 /* -----------  1-Carousel ---------- */
 .cont-carousel{
     width: 600px;
-    border: 5px solid green ;
+    border: 5px solid green ; /* Borrar esta propiedad e igualar width de "img y "cont-carousel */
     overflow: hidden;
 }
 .carousel{
     display: flex;
-    animation: carouselAnim 20s infinite alternate;
+    animation: carouselAnim 20s infinite;
 }
 img{
     width: 590px;  
