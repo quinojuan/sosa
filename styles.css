@@ -11,7 +11,7 @@
 }
 .carousel{
     display: flex;
-    animation: carouselAnim 20s infinite alternate;
+    animation: carouselAnim 20s infinite;
 }
 img{
     width: 590px;  
