@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+/* BOTONES DE MENU */
+nav {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+  }
+  ul {
+     list-style: none;
+   }
+  ul li {
+    display: inline-block;
+    padding: 7px;
+    width: 120px;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 0px 20px;
+  }
+  ul li a {
+    padding: 7px;
+    color: black;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+  }
+ 
+/* -------------  FORMULARIO   ----------- */
+
 .formulario {
     width: 500px;
     max-width: 100%;
@@ -60,7 +88,8 @@
 
 /* -----------  1-Carousel ---------- */
 .cont-carousel{
-    width: 600px;
+    width: 1600px;
+    height: 300px;
     border: 5px solid green ; /* Borrar esta propiedad e igualar width de "img y "cont-carousel */
     overflow: hidden;
 }
@@ -69,7 +98,7 @@
     animation: carouselAnim 20s infinite;
 }
 img{
-    width: 590px;  
+    width: 1600px;  
 }
 @keyframes carouselAnim{
     0%{margin-left:0% }
