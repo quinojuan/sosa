@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* SLIDER JUAN */
+
+
+
+
+/* FORM */
+
 .formulario {
     width: 500px;
     max-width: 100%;
@@ -62,17 +69,19 @@
     margin-top: -135px;
 }
 
-/* -----------  1-Carousel ---------- */
+/* FINALIZA FORM */
+
+/* -----------  1-Carousel ----------  POR LO PRONTO LO COMENTAMOS
 .cont-carousel{
     width: 600px;
-    border: 5px solid green ; /* Borrar esta propiedad e igualar width de "img y "cont-carousel */
+    border: 5px solid green ; /* Borrar esta propiedad e igualar width de "img y "cont-carousel 
     overflow: hidden;
 }
 .carousel{
     display: flex;
     animation: carouselAnim 20s infinite;
 }
-img{
+img {
     width: 590px;  
 }
 @keyframes carouselAnim{
@@ -89,4 +98,4 @@ img{
     90%{margin-left:-300% }
 
     100%{margin-left:0% }
-}
+}*/
