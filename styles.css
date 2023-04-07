@@ -117,6 +117,41 @@ nav {
     text-decoration: none;
     font-weight: 600;
   }
+
+  /* ------- CARDS -------- */
+.Contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+.imagen {
+    width: 700px;
+    height: 450px;
+    transition: all 0.3s ease;
+  }
+.imagen:hover {
+    transform: scale(1.25);
+  }
+.contenido {
+    position: absolute;
+    top: 50px;
+    right: 42px;
+    width: 200px;
+    height: 350px;
+    padding: 30px;
+    background-color: #ffffffb0;
+    text-align: center;
+    color: #4d4c4c;
+ }
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
  
 /* -------------  FORMULARIO   ----------- */
 
@@ -209,3 +244,19 @@ img {
 
     100%{margin-left:0% }
 }*/
+
+/* CONTACTOS */
+
+.copy {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    padding: 10px;
+    width: 100%; 
+   margin: 10px 0 0 0 ;
+  }
+.mouse{
+    color: red;
+}
