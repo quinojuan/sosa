@@ -156,6 +156,12 @@ h3 {
 /* CONTACTOS */
 /* -------------  FORMULARIO   ----------- */
 
+.title {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 20px;
+}
+
 .formulario {
   width: 500px;
   max-width: 100%;
@@ -247,8 +253,15 @@ h3 {
   display: flex;
   width: 30px;
   flex-direction: column;
+
 }
-.texto{
+
+/* test juan - achica la imagen de la ubicación */
+.icons > img:nth-child(3) { 
+  width: 24px;
+}
+
+.texto {
   margin-top: 46px;
   gap: 34px;
   display: flex;
