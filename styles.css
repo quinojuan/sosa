@@ -25,10 +25,11 @@ html {
 }
 
 #slider-container {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 60%;
   position: relative;
   overflow: hidden;
+  margin: 30px auto;
 }
 
 .slide {
@@ -89,9 +90,6 @@ html {
 @keyframes fade {
   from {
     opacity: 0.4;
-  }
-  to {
-    opacity: 1;
   }
 }
 
@@ -157,6 +155,12 @@ h3 {
 }
 /* CONTACTOS */
 /* -------------  FORMULARIO   ----------- */
+
+.title {
+  text-align: center;
+  font-size: 55px;
+  margin-top: 20px;
+}
 
 .formulario {
   width: 500px;
@@ -249,8 +253,15 @@ h3 {
   display: flex;
   width: 30px;
   flex-direction: column;
+
 }
-.texto{
+
+/* test juan - achica la imagen de la ubicación */
+.icons > img:nth-child(3) { 
+  width: 24px;
+}
+
+.texto {
   margin-top: 46px;
   gap: 34px;
   display: flex;
