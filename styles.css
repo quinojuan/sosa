@@ -25,10 +25,11 @@ body, html{
 
 
 #slider-container {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 60%;
     position: relative;
     overflow: hidden;
+    margin: 30px auto;
 }
 
 .slide{
@@ -44,7 +45,7 @@ body, html{
   }
   
   .slider-arrow{
-    color: #d6d6d6;
+    color: darkslategrey;
     font-size: 50px;
     cursor: pointer;
     position: absolute;
