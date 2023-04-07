@@ -158,7 +158,23 @@ img {
 }*/
 
 /* CONTACTOS */
-
+.contenedorCont{
+    display: flex;
+}
+.cont{
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.redes img{
+    height: 50px;
+}
+.contacto img{
+    height: 50px;
+}
+.contacto p{
+    color: #fff;
+}
 .copy {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
@@ -169,6 +185,3 @@ img {
     width: 100%; 
    margin: 10px 0 0 0 ;
   }
-.mouse{
-    color: red;
-}
