@@ -29,6 +29,22 @@ nav {
     text-decoration: none;
     font-weight: 600;
   }
+
+  /* ------- CARDS -------- */
+.Contenedor {
+    display: flex;
+  }
+.imagen {
+    width: 700px;
+    height: 450px;
+  }
+.contenido {background-color: blue;
+    text-align: center;
+    color: #676161;
+ }
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
  
 /* -------------  FORMULARIO   ----------- */
 
