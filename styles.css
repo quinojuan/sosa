@@ -3,7 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.encabezado{
+  display: flex;
+}
+h1 img{
+  width: 35%;
+  margin: 30px auto auto 100px;
+}
+/* BOTONES DE MENU */
+nav {
+ 
+}
+ul {
+  margin-top: 45px;
+  display: flex;
+margin-right: 80px;
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  padding: 7px;
+  width: 120px;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 0px 20px;
+}
+ul li a {
+  padding: 7px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
 /* SLIDER JUAN */
 
 body,
@@ -29,7 +61,7 @@ html {
   height: 60%;
   position: relative;
   overflow: hidden;
-  margin: 30px auto;
+  margin: 0px auto 30px;
 }
 
 .slide {
@@ -93,31 +125,7 @@ html {
   }
 }
 
-/* BOTONES DE MENU */
-nav {
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: end;
-}
-ul {
-  list-style: none;
-}
-ul li {
-  display: inline-block;
-  padding: 7px;
-  width: 120px;
-  text-align: center;
-  padding: 5px 20px;
-  margin: 0px 20px;
-}
-ul li a {
-  padding: 7px;
-  color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  font-weight: 600;
-}
+
 
 /* ------- CARDS -------- */
 .Contenedor {
