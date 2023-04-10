@@ -125,8 +125,6 @@ html {
   }
 }
 
-
-
 /* ------- CARDS -------- */
 .Contenedor {
   display: flex;
@@ -165,14 +163,13 @@ h3 {
 /* -------------  FORMULARIO   ----------- */
 
 .title {
-  background: linear-gradient(to right, blue, pink);
+  background: linear-gradient(to right, rgb(62, 62, 62), rgb(141, 141, 141));
   color: white;
   text-align: center;
   font-size: 30px;
   margin: 20px 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .formulario {
   width: 500px;
   max-width: 100%;
