@@ -125,8 +125,6 @@ html {
   }
 }
 
-
-
 /* ------- CARDS -------- */
 .Contenedor {
   display: flex;
@@ -172,7 +170,6 @@ h3 {
   margin: 20px 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .formulario {
   width: 500px;
   max-width: 100%;
