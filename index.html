@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <title>SERVERONE</title>
   </head>
@@ -81,7 +82,8 @@
     </div>
     <!-- contacto -->
     <h3 class="title">CONTACTO</h3>
-      <div class="contenedorCont">
+    <!-- contacto -->
+    <div class="contenedorCont" data-aos="fade-up">
       <div id="error"></div>
       <form action="" id="contact-form" class="formulario">
         <!-- <h3 class="formulario__titulo">Contáctenos</h3> -->
@@ -106,14 +108,14 @@
         <button type="submit" class="formulario__submit">ENVIAR</button>
       </form>
 
-      <div class="cont">
-        <div class="redes">
+      <div class="cont" data-aos="fade-up">
+        <div class="redes" >
           <img src="./imagen/Instagram.png" alt="instagram" />
           <img src="./imagen/whatsapp.png" alt="whatsapp" />
           <img src="./imagen/Linkelin.png" alt="Linkelin" />
           <img src="./imagen/face.png" alt="facebook" />
         </div>
-        <div class="contacto">
+        <div class="contacto" data-aos="fade-left">
           <div class="icons">
             <img src="./imagen/Auricular.png" alt="logo auricular" />
             <img src="./imagen/sobre.png" alt="logo mail" />
@@ -133,5 +135,9 @@
     </footer>
     <script src="./js/form.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
