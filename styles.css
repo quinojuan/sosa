@@ -165,7 +165,7 @@ h3 {
 /* -------------  FORMULARIO   ----------- */
 
 .title {
-  background: linear-gradient(to right, blue, pink);
+  background: linear-gradient(to right, rgb(62, 62, 62), rgb(141, 141, 141));
   color: white;
   text-align: center;
   font-size: 30px;
