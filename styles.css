@@ -165,9 +165,12 @@ h3 {
 /* -------------  FORMULARIO   ----------- */
 
 .title {
+  background: linear-gradient(to right, blue, pink);
+  color: white;
   text-align: center;
-  font-size: 55px;
-  margin-top: 20px;
+  font-size: 30px;
+  margin: 20px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .formulario {
