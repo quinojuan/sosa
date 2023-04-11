@@ -243,6 +243,9 @@ h3 {
 .redes {
   margin: 35px;
   margin: 45px 64px;
+  /* agregué estas dos propiedades para centrar las redes al medio */
+  display: flex;
+  justify-content: center;
 }
 .redes img {
   height: 50px;
